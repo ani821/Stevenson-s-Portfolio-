@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Ribeye&family=Ribeye+Marrow&display=swap');
+
+
+/*
+font-family: 'Ribeye', serif;
+font-family: 'Ribeye Marrow', serif;
+*/
+
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav ul li {
+    margin: 1px;
+}
+
+
+
+
+nav ul li a {
+ text-decoration: none;
+ background: #0099ff42;
+ color: #000000;
+ padding: 10px;
+ display: block;
+ border-radius: 5px;
+}
+
+nav ul li a :hover {
+ background: #000000;
+ color: #ffffff;
+}
+
+
+*{
+    box-sizing: border-box;
+}
+
+h1, h2 {
+    font-family: 'Ribeye', sans-serif;
+}
+
+li {
+    line-height: 1.75rem;
+}
+
+
+section img {
+  max-width: 100%;
+    border: 2px solid #d3d3d3;
+    border-radius: 13px;
+    box-shadow: 4px 7px 7px 0px #00000042;
+    cursor: pointer;
+    margin: 10px;
+    transition: 400ms;
+
+}
+
+section img:hover {
+    filter: grayscale(1);
+    transform: scale(1.03);
+}
+
+
+
+
+body {
+    margin:0;
+}
+
+header{
+    background: #ffffff;
+    padding: 10px 0;
+    background-image: url('pics/pexels-vaibhav-jadhav-3218467.jpg');
+    height: 400px;
+    background-size: cover;
+    background-position: 50%;
+}
+
+header h1 {
+    transform: translateY(100px);
+    background: rgba(255, 255, 255, 0.6);
+    padding: 10px;
+    display: inline-block;
+    border-radius: 0 25px 25px 0;
+    font-family: 'Ribeye', serif ;
+   
+    font-size: 3.5rem;
+}
+
+header span {
+    display: block;
+    font-size: 0.90em;
+    font-family: 'Ribeye Marrow', sans-serif;
+}
+
+
+section h2 {
+    text-align: center;
+}
+
+
+
+main {
+    display: flex;
+    flex-flow: row wrap;
+    
+}
+main section {
+ flex: 1 1 33%;
+ padding: 20px;
+}
+
+
+footer {
+    background-color: #0099ff42;
+    padding: 1px;
+}
